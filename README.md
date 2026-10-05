@@ -1,3 +1,5 @@
+Live website: https://cassystudent.github.io/boba-planet/
+
 # Boba Planet
 
 A bubble tea scroll story: tea garden → pearl kitchen → strawberry river → finished cup.
