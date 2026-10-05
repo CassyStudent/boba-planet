@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#fff8ec">
+  <meta name="description" content="A tiny world. A very good sip. Follow Boba Planet from tea garden to strawberry milk tea.">
+  <title>Boba Planet — A tiny world in every sip</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="media-config.js"></script><script defer src="app.js"></script>
+</head>
+<body>
+  <a class="skip" href="#story">Skip to the story</a>
+  <header class="header"><a class="wordmark" href="#top" aria-label="Boba Planet home"><span class="brand-icon" aria-hidden="true">●<i>●</i>●</span> boba planet<span class="star">✳</span></a><span class="header-note">A LITTLE SIP OF SOMEWHERE ELSE</span><button id="motion" class="quiet" aria-pressed="false">Read without motion</button></header>
+  <main id="top">
+    <div id="journey" class="journey">
+      <div class="stage" aria-hidden="true">
+        <div class="world-disc"></div>
+        <div class="artwork">
+          <img class="scene-art active" src="assets/garden.svg" alt="" width="1200" height="900">
+          <img class="scene-art" src="assets/kitchen.svg" alt="" width="1200" height="900">
+          <img class="scene-art" src="assets/river.svg" alt="" width="1200" height="900">
+          <img class="scene-art" src="assets/cup.svg" alt="" width="1200" height="900">
+        </div>
+        <video id="film" muted playsinline preload="auto" disablepictureinpicture tabindex="-1"></video>
+        <span class="orbit orbit-a">little world, big feelings</span><span class="orbit orbit-b">100% good company</span>
+      </div>
+      <div class="scenes" id="story">
+        <section id="garden" class="scene" data-scene="0" aria-labelledby="title-garden">
+          <div class="copy"><p class="eyebrow"><span>01 / 04</span> THE TEA GARDEN</p><h1 id="title-garden">A tiny world.<br>A very <br><em>good sip.</em></h1><p class="description">Every little adventure starts with a leaf. Wander into ours.</p><a class="pill" href="#kitchen">Follow the flavour <span aria-hidden="true">↘</span></a><p class="scroll-hint"><span aria-hidden="true">↓</span> SCROLL TO EXPLORE · BACK UP TO REWIND</p></div>
+          <img class="static-art" src="assets/garden.svg" alt="A miniature green tea garden with winding paths, giant leaves, and a pink archway." width="1200" height="900">
+        </section>
+        <section id="kitchen" class="scene" data-scene="1" aria-labelledby="title-kitchen">
+          <div class="copy"><p class="eyebrow"><span>02 / 04</span> THE PEARL KITCHEN</p><h2 id="title-kitchen">Small pearls.<br><em>Big personality.</em></h2><p class="description">Round, glossy, a little bouncy. Meet the tiny stars at the bottom of your cup.</p><span class="ingredient">TAPIOCA + A LITTLE MAGIC</span></div>
+          <img class="static-art" src="assets/kitchen.svg" alt="A pink miniature pearl kitchen with a copper mixing bowl and glossy cocoa-coloured tapioca pearls." width="1200" height="900">
+        </section>
+        <section id="river" class="scene" data-scene="2" aria-labelledby="title-river">
+          <div class="copy"><p class="eyebrow"><span>03 / 04</span> THE STRAWBERRY SWIRL</p><h2 id="title-river">Take the<br><em>sweet way.</em></h2><p class="description">Follow a ribbon of strawberry milk. A softer, sweeter turn in the journey.</p><span class="ingredient">STRAWBERRY MILK TEA</span></div>
+          <img class="static-art" src="assets/river.svg" alt="A winding strawberry-pink river flowing between cream hills and oversized strawberries." width="1200" height="900">
+        </section>
+        <section id="cup" class="scene" data-scene="3" aria-labelledby="title-cup">
+          <div class="copy"><p class="eyebrow"><span>04 / 04</span> YOUR LITTLE PLANET</p><h2 id="title-cup">Your world.<br><em>To go.</em></h2><p class="description">Tea, pearls, and a strawberry daydream. A whole little world, together in one cup.</p><a class="pill" href="#recipe">Meet your drink <span aria-hidden="true">↗</span></a></div>
+          <img class="static-art" src="assets/cup.svg" alt="A finished strawberry bubble tea in a clear cup, with a green straw and dark tapioca pearls." width="1200" height="900">
+        </section>
+      </div>
+    </div>
+    <section class="ending" id="recipe" aria-labelledby="end-title"><p class="eyebrow">YOU'VE ARRIVED. STAY A LITTLE.</p><h2 id="end-title">Strawberry skies.<br><em>Extra pearls.</em></h2><p>Our imaginary signature sip: jasmine tea, strawberry milk,<br class="desktop"> and a generous scoop of tapioca pearls.</p><div class="recipe"><span>01 &nbsp; JASMINE TEA</span><span>02 &nbsp; TAPIOCA PEARLS</span><span>03 &nbsp; STRAWBERRY MILK</span></div><a class="pill light" href="#garden">One more little adventure <span aria-hidden="true">↺</span></a><p class="end-small">A FICTIONAL BRAND. A REAL LOVE FOR BUBBLE TEA.</p></section>
+  </main>
+  <nav class="chapter-nav" aria-label="Story chapters"><a href="#garden" aria-label="Chapter 1: Tea garden" aria-current="step"><span>01</span></a><a href="#kitchen" aria-label="Chapter 2: Pearl kitchen"><span>02</span></a><a href="#river" aria-label="Chapter 3: Strawberry swirl"><span>03</span></a><a href="#cup" aria-label="Chapter 4: Finished drink"><span>04</span></a></nav>
+  <div class="progress" aria-hidden="true"><div id="progress-fill"></div></div>
+  <p id="media-status" class="media-status" role="status">Preparing your little journey…</p>
+  <noscript><style>.stage,.chapter-nav,.media-status{display:none}.scene{min-height:auto;padding:100px 7% 30px}.copy{width:100%;max-width:700px}.static-art{display:block;width:100%;height:auto}.journey{height:auto}.scenes{margin-top:0}</style></noscript>
+  <footer><a class="wordmark" href="#top">boba planet ✳</a><span>A scroll story made with Codex.</span><a href="guide.html">Project guide ↗</a></footer>
+</body>
+</html>

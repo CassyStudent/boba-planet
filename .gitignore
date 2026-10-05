@@ -1,0 +1,8 @@
+node_modules/
+.env*
+!.env.example
+raw/*
+!raw/README.md
+work/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,8 @@
+stage,filename,provider,model_id,prompt_file,resolution,duration_seconds,seed_if_supported,first_frame,last_frame_target,job_id,credits,status,notes
+pilot,01-garden.mp4,Magnific,TO_VERIFY,02-MAGNIFIC-PROMPTS.md,TO_VERIFY,TO_VERIFY,,A-garden.png,,,,NOT_GENERATED,
+pilot,02-garden-kitchen.mp4,Magnific,TO_VERIFY,02-MAGNIFIC-PROMPTS.md,TO_VERIFY,TO_VERIFY,,01-garden-last.png,B-kitchen.png,,,NOT_GENERATED,
+pilot,03-kitchen.mp4,Magnific,TO_VERIFY,02-MAGNIFIC-PROMPTS.md,TO_VERIFY,TO_VERIFY,,02-garden-kitchen-last.png,,,,NOT_GENERATED,
+final,04-kitchen-river.mp4,Magnific,TO_VERIFY,02-MAGNIFIC-PROMPTS.md,TO_VERIFY,TO_VERIFY,,03-kitchen-last.png,C-river.png,,,NOT_GENERATED,
+final,05-river.mp4,Magnific,TO_VERIFY,02-MAGNIFIC-PROMPTS.md,TO_VERIFY,TO_VERIFY,,04-kitchen-river-last.png,,,,NOT_GENERATED,
+final,06-river-cup.mp4,Magnific,TO_VERIFY,02-MAGNIFIC-PROMPTS.md,TO_VERIFY,TO_VERIFY,,05-river-last.png,D-cup.png,,,NOT_GENERATED,
+final,07-cup.mp4,Magnific,TO_VERIFY,02-MAGNIFIC-PROMPTS.md,TO_VERIFY,TO_VERIFY,,06-river-cup-last.png,,,,NOT_GENERATED,

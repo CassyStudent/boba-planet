@@ -1,0 +1,5 @@
+{
+  "name": "boba-planet", "version": "1.0.0", "private": true,
+  "description": "A bubble tea scroll story: illustrated prototype and production video pipeline",
+  "scripts": { "start": "node scripts/serve.cjs", "check": "node --check app.js && node --check scripts/serve.cjs" }
+}
